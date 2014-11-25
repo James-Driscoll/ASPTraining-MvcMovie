@@ -8,7 +8,7 @@ namespace MvcMovie.Controllers
         // 
         // GET: /HelloWorld/ 
 
-        public string Index()
+        public ActionResult Index()
         {
             return View();
         }
